@@ -8,28 +8,61 @@
 <style>
 body
 {
-  background: rgb(200,230,255);
-  margin: 50px 100px;
+  background: rgb(215,240,255);
+  margin: 100px 200px;
 }
 a
 {
   color: black;
+  text-decoration: none;
 }
+
 body div
 {
   padding: 10px;
+}
+
+.links
+{
+  display: flex;
+}
+.link
+{
+  background: #111a;
+  color: white;
+  padding: 20px 50px;
+}
+.link:hover
+{
+  background:#222;
+}
+#name
+{
+  font-size:14pt;
 }
 </style>  
 </head>
 
 <body>
-<div>Luke Clark</div>
-<div>lukeclarksfo@gmail.com</div>
-<div>Projects</div>
-<div>
-<a href="/youtube/"><div>YouTube</div></a>
-<a href="/gmail/"><div>Gmail</div></a>
-<div><a href="//github.com/lukeclarksfo">GitHub</a></div>
+<header id="header">
+<div id="name">Luke Clark</div>
+<div>lukeclarksfo@gmail.com | +381 63 7831 121</div>
+</header>
+
+<div>Check out my GitHub.</div>
+
+<div class="links">
+<a href="https://github.com/lukeclarksfo"><div class="link">GitHub</div></a>
 </div>
+
+<div>Projects</div>
+
+<div class="links">
+<a href="https://lukeclarksfo.github.io/youtube/"><div class="link">YouTube</div></a>
+<a href="https://lukeclarksfo.github.io/gmail/"><div class="link">Gmail</div></a>
+</div>
+
+
+
 </body>
 </html>

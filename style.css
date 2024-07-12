@@ -36,19 +36,20 @@ footer
   padding-top: 200px;
 }
 
-.buttons
+.articles
 {
-  display: flex;
+    display: flex;
 }
-.button
+button
 {
   background: rgb(0,106,178);
+  border: none;
   color: white;
   padding: 12px 10px;
   margin: 0 10px 0 0;
   font-weight:bold;
 }
-.button:hover
+button:hover
 {
   background:rgb(0,95,160);
 }
@@ -56,3 +57,12 @@ footer
 {
   font-size:14pt;
 } 
+
+article
+{
+    padding: 0 50px 0 0;
+}
+h3
+{
+    font-weight: 550;
+}

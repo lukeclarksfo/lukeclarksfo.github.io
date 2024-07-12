@@ -1,36 +1,36 @@
-#first-header a 
+#cross-first-header a 
 {
     color: white;
     font-weight: bold;
     text-decoration: none;
 }
-#first-header a:hover
+#cross-first-header a:hover
 {
   text-decoration: underline;
 }
 
-#first-header
+#cross-first-header
 {
     background: rgb(4 60 129);
     color: white;
     display: flex;
 }
-#first-header div
+#cross-first-header div
 {
     padding: 20px;
 }
 
-#second-header
+#cross-second-header
 {
     background: rgb(4 60 129);
     color: white;
     flex-flow: column;
 }
-#second-header p, #second-header h2
+#cross-second-header p, #cross-second-header h2
 {
     padding: 10px 100px;
 }
-#second-header h2
+#cross-second-header h2
 {
     font-weight: 550;
 }

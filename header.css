@@ -24,6 +24,7 @@
 {
     background: rgb(4 60 129);
     color: white;
+    display: flex;
     flex-flow: column;
 }
 #cross-second-header p, #cross-second-header h2

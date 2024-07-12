@@ -23,6 +23,7 @@
 #second-header
 {
     background: rgb(4 60 129);
+    color: white;
     flex-flow: column;
 }
 #second-header p, #second-header h2

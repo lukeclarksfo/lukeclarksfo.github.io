@@ -1,0 +1,33 @@
+#first-header a 
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#first-header a:hover
+{
+  text-decoration: underline;
+}
+#first-header
+{
+    background: rgb(4 60 129);
+    color: white;
+    display: flex;
+}
+#first-header div, #first-header p
+{
+    padding: 20px;
+}
+
+#second-header
+{
+    flex-flow: column;
+}
+#second-header p, #second-header h2
+{
+    padding: 10px 100px;
+}
+#second-header h2
+{
+    font-weight: 550;
+}

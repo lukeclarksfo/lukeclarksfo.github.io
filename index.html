@@ -5,45 +5,7 @@
 <meta http-equiv="expires" content='0'> 
 <meta http-equiv="pragma" content='no-cache'>
 
-<style>
-  body
-  {
-      margin: 0;
-      font-family:sans-serif;
-  }
-  header
-  {
-      background: rgb(4 60 129);
-      color: white;
-      display: flex;
-  }
-  header div, header p
-  {
-      padding: 20px;
-  }
-  header:nth-of-type(2)
-  {
-      flex-flow: column;
-  }
-  header p, header h2
-  {
-      padding: 10px 100px;
-  }
-  header h2
-  {
-      font-weight: 550;
-  }
-  a 
-  {
-      color: white;
-      font-weight: bold;
-      text-decoration: none;
-  }
-  a:hover
-  {
-    text-decoration: underline;
-  }
-  </style>
+<link rel="stylesheet" href="https://lukeclarksfo.github.io/header.css">
 <style>
 body
 {
@@ -52,6 +14,7 @@ body
 }
 a 
 {
+  color: rgb(0,106,178);
   font-weight: bold;
   text-decoration: none;
 }
@@ -68,6 +31,7 @@ body div
 header
 {
   padding-left: 100px;
+  margin-bottom: 100px;
 }
 main
 {
@@ -106,10 +70,14 @@ footer
 </head>
 
 <body>
-  <header>
+  <header id="first-header">
     <div><a href="https://lukeclarksfo.github.io/">Luke Clark</a></div>
     <div><a href="https://github.com/lukeclarksfo">GitHub Profile</a></div>
     <div><a href="https://github.com/lukeclarksfo/youtube/">GitHub</a></div>
+</header>
+<header id="second-header">
+    <h2>YouTube Player</h2>
+    <p>This is only a very small copy of the YouTube player with blue color for the timeline. The project is not actively developed. The features are severely limited.</p>
 </header>
 
 <main>

@@ -8,19 +8,21 @@
 {
   text-decoration: underline;
 }
+
 #first-header
 {
     background: rgb(4 60 129);
     color: white;
     display: flex;
 }
-#first-header div, #first-header p
+#first-header div
 {
     padding: 20px;
 }
 
 #second-header
 {
+    background: rgb(4 60 129);
     flex-flow: column;
 }
 #second-header p, #second-header h2

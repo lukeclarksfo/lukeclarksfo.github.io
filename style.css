@@ -60,11 +60,16 @@ button:hover
   font-size:14pt;
 } 
 
+.no-article
+{
+  background: none;
+}
 article
 {
     background: #f7f7f7;
     padding: 20px;
     margin: 10px;
+    flex: 1;
 }
 h3
 {
